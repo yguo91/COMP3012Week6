@@ -28,7 +28,7 @@ A Node.js/Express application for sharing developer tips with user authenticatio
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/devtips-auth-app.git
+git clone https://github.com/yguo91/COMP3012Week6.git
 cd devtips-auth-app
 ```
 
@@ -39,7 +39,7 @@ npm install
 
 3. Run the development server:
 ```bash
-npm run dev
+npm start
 ```
 
 4. Open your browser and navigate to:
@@ -54,8 +54,7 @@ src/
 ├── server.ts          # Express server setup and routes
 ├── data.ts            # Database mock and data functions
 ├── types.ts           # TypeScript type definitions
-├── types/
-│   └── session.d.ts   # Session type declarations
+├── session.d.ts       # Session type declarations
 └── views/
     ├── index.ejs      # Main tips page
     ├── login.ejs      # Login page
@@ -139,7 +138,7 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Your Name - [GitHub Profile](https://github.com/yourusername)
+Eric Guo
 
 ## Acknowledgments
 
