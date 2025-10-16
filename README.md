@@ -29,7 +29,7 @@ A Node.js/Express application for sharing developer tips with user authenticatio
 1. Clone the repository:
 ```bash
 git clone https://github.com/yguo91/COMP3012Week6.git
-cd devtips-auth-app
+cd COMP3012Week6
 ```
 
 2. Install dependencies:
