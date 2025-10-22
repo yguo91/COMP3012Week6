@@ -19,7 +19,7 @@ app.use(express.static("public"));
 app.use(session({
   secret: 'keyboard cat', 
   resave: false,
-  saveUninitialized: true,
+  saveUninitialized: false,
   cookie: {
     secure: false, // Set to true if using HTTPS
     httpOnly: true,
